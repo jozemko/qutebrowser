@@ -5,6 +5,8 @@ check-manifest==0.49
 importlib-metadata==8.5.0
 packaging==24.1
 pyproject-hooks==1.1.0
-setuptools==75.1.0
 tomli==2.0.1
 zipp==3.20.2
+
+# The following packages were excluded from the output:
+# setuptools

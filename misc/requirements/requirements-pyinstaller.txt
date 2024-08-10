@@ -5,5 +5,7 @@ importlib-metadata==8.5.0
 packaging==24.1
 pyinstaller==6.10.0
 pyinstaller-hooks-contrib==2024.8
-setuptools==75.1.0
 zipp==3.20.2
+
+# The following packages were excluded from the output:
+# setuptools
