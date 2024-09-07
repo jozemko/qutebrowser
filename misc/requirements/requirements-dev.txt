@@ -62,8 +62,6 @@ packaging==24.1
     #   sip
 pkginfo==1.10.0
     # via twine
-platformdirs==4.3.6
-    # via -r misc/requirements/requirements-dev.txt-raw
 pycparser==2.22
     # via cffi
 pygments==2.18.0

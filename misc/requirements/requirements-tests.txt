@@ -2,8 +2,6 @@
 
 attrs==24.2.0
     # via hypothesis
-backports-tarfile==1.2.0
-    # via jaraco-context
 beautifulsoup4==4.12.3
     # via -r misc/requirements/requirements-tests.txt-raw
 blinker==1.8.2
@@ -40,14 +38,10 @@ idna==3.10
     #   tldextract
 importlib-metadata==8.5.0
     # via flask
-importlib-resources==6.4.5 ; python_version=="3.8.*"
-    # via -r misc/requirements/requirements-tests.txt-raw
 iniconfig==2.0.0
     # via pytest
 itsdangerous==2.2.0
     # via flask
-jaraco-context==6.0.1
-    # via -r misc/requirements/requirements-tests.txt-raw
 jaraco-functools==4.0.2
     # via cheroot
 # jinja2==3.1.4
@@ -76,8 +70,6 @@ parse==1.20.2
     #   pytest-bdd
 parse-type==0.6.3
     # via pytest-bdd
-platformdirs==4.3.6
-    # via -r misc/requirements/requirements-tests.txt-raw
 pluggy==1.5.0
     # via
     #   pytest
@@ -151,6 +143,4 @@ vulture==2.12
 werkzeug==3.0.4
     # via flask
 zipp==3.20.2
-    # via
-    #   importlib-metadata
-    #   importlib-resources
+    # via importlib-metadata
