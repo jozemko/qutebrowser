@@ -44,6 +44,9 @@ jobs:
           - os: macos-14
             toxenv: build-release
             name: macos-debug-apple-silicon
+          - os: macos-15
+            toxenv: build-release
+            name: macos-debug-sequoia
           - os: windows-2019
             args: --debug
             toxenv: build-release
