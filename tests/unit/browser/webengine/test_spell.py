@@ -75,7 +75,9 @@ class TestInit:
 
     @pytest.fixture
     def dict_dir(self, data_tmpdir):
-        return data_tmpdir / 'qtwebengine_dictionaries'
+        ret = data_tmpdir / 'qtwebengine_dictionaries'
+        ret.mkdir()
+        return ret
 
     def test_init(self, dict_dir):
         spell.init()
